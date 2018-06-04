@@ -20,5 +20,4 @@ object session {
   sqrt(9)                                         //> res0: Double = 3.000000001396984
   sqrt(1e-6)                                      //> res1: Double = 0.0010000001533016628
   sqrt(1e60)                                      //> res2: Double = 1.0000000031080746E30
-
 }

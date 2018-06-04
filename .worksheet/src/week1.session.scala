@@ -20,5 +20,4 @@ object session {;import org.scalaide.worksheet.runtime.library.WorksheetSupport.
   sqrt(9);System.out.println("""res0: Double = """ + $show(res$0));$skip(13); val res$1 = 
   sqrt(1e-6);System.out.println("""res1: Double = """ + $show(res$1));$skip(13); val res$2 = 
   sqrt(1e60);System.out.println("""res2: Double = """ + $show(res$2))}
-
 }
