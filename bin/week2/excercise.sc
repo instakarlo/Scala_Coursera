@@ -24,4 +24,13 @@ object excercise {
   factorial_v2(3)                                 //> res7: Int = 6
   factorial_v2(4)                                 //> res8: Int = 24
   factorial_v2(10)                                //> res9: Int = 3628800
+  
+  
+  def forloop(a: Int, b: Int) = {
+  	for (i <- a to b)
+  		println(i)
+  }                                               //> forloop: (a: Int, b: Int)Unit
+  
+  forloop(3,4)                                    //> 3
+                                                  //| 4
 }

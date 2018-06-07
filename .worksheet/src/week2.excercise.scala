@@ -23,5 +23,13 @@ object excercise {;import org.scalaide.worksheet.runtime.library.WorksheetSuppor
   factorial_v2(2);System.out.println("""res6: Int = """ + $show(res$6));$skip(18); val res$7 = 
   factorial_v2(3);System.out.println("""res7: Int = """ + $show(res$7));$skip(18); val res$8 = 
   factorial_v2(4);System.out.println("""res8: Int = """ + $show(res$8));$skip(19); val res$9 = 
-  factorial_v2(10);System.out.println("""res9: Int = """ + $show(res$9))}
+  factorial_v2(10);System.out.println("""res9: Int = """ + $show(res$9));$skip(80); 
+  
+  
+  def forloop(a: Int, b: Int) = {
+  	for (i <- a to b)
+  		println(i)
+  };System.out.println("""forloop: (a: Int, b: Int)Unit""");$skip(18); 
+  
+  forloop(3,4)}
 }
